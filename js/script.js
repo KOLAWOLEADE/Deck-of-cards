@@ -6,6 +6,8 @@ $(document).ready(function(){
         // console.log(suits[suitCounter])
         for (let rankCounter = 0; rankCounter < 13; rankCounter ++) {
             console.log(ranks[rankCounter] + suits[suitCounter]);
+
+            $("#Deck").show()
         }
     }
 })
